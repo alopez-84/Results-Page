@@ -1,0 +1,114 @@
+html {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: gray;
+  }
+
+/* I learned that it may be better to use all the center and justifying for html */
+
+.content-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 25px;
+}
+
+.resultPanel {
+    height: 450px;
+    width: 300px;
+    border-radius: 25px;
+    background-color: blue;
+    text-align: center;
+}
+
+.resultPanel h3 {
+    color: white;
+}
+
+.resultPanel section {
+    color: white;
+}
+
+.circle-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.result-circle {
+    width: 150px; /* Adjust the size of the circle as needed */
+    height: 150px; /* Should be equal to width for a perfect circle */
+    background-color: #3498db; /* Background color of the circle */
+    border-radius: 75px; /* Makes it a circle */
+
+    color: white; /* Text color inside the circle */
+    font-size: 18px; /* Adjust the font size as needed */
+    font-weight: bold; /* Adjust the font weight as needed */
+}
+
+.summary-panel {
+    background-color: white;
+    height: 450px;
+    width: 300px;
+    border-radius: 25px;
+    text-align: left;
+}
+
+.data-container {
+    display: block;
+    flex-wrap: wrap;
+
+}
+
+.reaction-container {
+    display: flex;
+    align-items: center;
+}
+
+.reaction-container h5 {
+    margin-right: 10px;
+}
+
+.memory-container {
+    display: flex;
+    align-items: center;
+}
+
+.memory-container h5 {
+    margin-right: 10px;
+}
+
+.verbal-container {
+    display: flex;
+    align-items: center;
+}
+
+.verbal-container h5 {
+    margin-right: 10px;
+}
+
+.visual-container {
+    display: flex;
+    align-items: center;
+}
+
+.visual-container h5 {
+    margin-right: 10px;
+}
+
+
+
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    margin-top: auto;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
